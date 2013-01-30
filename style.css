@@ -1,0 +1,66 @@
+/*
+Theme Name: Brusen
+Theme URI: http://wordpress.org/
+Description: Theme by Brusen.
+Author: brusen
+Author URI: http://wordpress.org/
+Version: 0.1
+Tags: 
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+body {
+	text-align: center;
+	margin: 0;
+}
+#wrapper {
+	/*display: block;*/
+    /*border: 1px #000 solid;*/
+    width:100%;
+	margin: 0;
+}
+#header {
+	border: 2px #000 solid;
+}
+#content {
+	width: 85%;
+	border: 2px #000 solid;
+	float: right;
+}
+#sidebar {
+	width: 13%;
+	border: 2px #000 solid;
+	float: left;
+}
+#profile-wrapper {
+	margin: 10%;
+}
+#profile-avatar {
+	margin: 0;
+	padding: 0;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	width:174px;
+	height:174px;
+	overflow:hidden;
+}
+#profile-avatar img {
+max-width:174px;
+}
+#delimiter {
+	clear: both;
+}
+#footer {
+	border: 2px #000 solid;
+}
+.title {
+	font-size: 11pt;
+	font-family: arial;
+	font-weight: bold;
+}
