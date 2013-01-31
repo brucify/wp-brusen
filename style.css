@@ -32,6 +32,10 @@ body {
 	float: right;
 }
 #sidebar {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
 	width: 228px;
 	height: 100%;
 	border: 2px #000 solid;
