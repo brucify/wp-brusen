@@ -1,7 +1,6 @@
 <div id="sidebar">
   <div id="profile-wrapper">
-  <figure id="profile-avatar">
-    <img src="<?php echo get_site_url(); ?>/wp-content/themes/brusen/images/profile_avatar.jpg"></figure>
+    <figure id="profile-avatar"> <img src="<?php echo get_site_url(); ?>/wp-content/themes/brusen/images/profile_avatar.jpg"></figure>
   </div>
   <h2 class="sidebartitle">
     <?php _e('Categories'); ?>

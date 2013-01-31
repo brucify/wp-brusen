@@ -6,6 +6,8 @@
 <?php get_header(); ?>
 
 <div id="main">
+  <?php get_sidebar(); ?>
+
   <div id="content">
     <h1>Main Content Area</h1>
     <?php if (have_posts()) : 
@@ -27,7 +29,6 @@
     </p>
     <?php endif; ?>
   </div>
-  <?php get_sidebar(); ?>
 </div>
 <div id="delimiter"></div>
 <?php get_footer(); ?>

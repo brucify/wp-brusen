@@ -32,12 +32,18 @@ body {
 	float: right;
 }
 #sidebar {
-	width: 13%;
+	width: 228px;
+	height: 100%;
 	border: 2px #000 solid;
 	float: left;
 }
 #profile-wrapper {
-	margin: 10%;
+	margin-top: 22px;
+	margin-right: 22px;
+	margin-bottom: 22px;
+	margin-left: 22px;
+	width: 174px;
+	height: 174px;
 }
 #profile-avatar {
 	margin: 0;
@@ -51,7 +57,7 @@ body {
 	overflow:hidden;
 }
 #profile-avatar img {
-max-width:174px;
+	max-width:174px;
 }
 #delimiter {
 	clear: both;
