@@ -27,6 +27,8 @@ body {
 	border: 2px #000 solid;
 }
 #content {
+	position:absolute;
+	left: 234px;
 	width: 85%;
 	border: 2px #000 solid;
 	float: right;
